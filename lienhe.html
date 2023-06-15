@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Trang web ca nhan</h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="topnav" ><a href="index.html">Trang chu</a> </li>
+            <li class="topnav" ><a href="sanpham.html">san pham</a></li>
+            <li class="topnav" ><a href="lienhe.html">lien he</a></li>
+            <li class="topnav" ><a href="baitap5.html">lien he</a></li>
+        </ul>
+    </nav>
+
+    <aside> 
+        <div id="info"> 
+            <h2>Hello hello hello </h2>
+            <p>ok ok ok ok ok opokoko</p>
+            <p>aloalfsdjfnodnfgonfognfd</p>
+        </div>
+        <div id="ads"> quang cao </div>
+        <div id="thongke"> thong ke truy cap </div>
+        <img src="../IMAGES/hinh1.jpg" alt="" width="100px" height="100px">
+     </aside>
+    <!--chua ca nut danh muc, quang cao, nhung thanh phan khac,.. nam o ben trai, phai or ca hai ben -->
+     
+    <main>
+        <div class="lienhe_wrap">
+        <h3 class="Tieudelienhe">Liên hệ</h3>
+
+        <form action="post">
+            <label for= "hovaten">Họ và tên:</label>
+            <input type="text" name="hovaten" placeholder="Nhập họ và tên">
+           <br> <label for="gioitinh">Giới tính:</label>
+            <input type="radio" name="gioitinh" value="0">Nam
+           
+            <input type="radio" name="gioitinh" value="1">Nữ
+            <br> <label for="noisinh">Nơi sinh</label>
+           <select  name="noisinh" >
+            <option value="tphcm">TP Hồ chí Minh</option> 
+            <option value="tpdn">TP Đà nẵng</option> 
+            <option value="tphn">TP Hà Nội</option>
+           </select> 
+            <br> <label for="ngaysinh">Nơi sinh</label>
+            <input type="date" name="ngaysinh">
+            <br> <label for="loai">Loại liên hệ:</label>
+            <input type="checkbox" name="type1">Khiếu nại sản phẩm 
+            <input type="checkbox" name="type2">Báo lỗi trang web 
+            <input type="checkbox" name="type3">Yêu cầu trả hàng <br> 
+            <label for="hinhsanpham">Hình Sản Phẩm:</label>
+            <input type="file" name="hinhsanpham" >
+            <br><label for="ghichu">Ghi chú:</label>
+            <textarea name="ghichu"></textarea>
+            <br><input type="button" value="Gửi" id="gui">
+            <br><input type="reset" value="Hủy">
+
+
+        </form>
+         </div>
+    </main>
+    <footer>day la chan trang web</footer>
+    <!-- la cho thong tin trang web cuoi trang, ngoai ra con nhieu the khac-->
+    <article></article>
+    <!--dung de chua noi dung bai viet-->
+</body>
+<script src="/js/srcipt.js"></script>
+</html>

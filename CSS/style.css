@@ -1,0 +1,184 @@
+*{  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+    h1{
+      color: rgb(235, 223, 223);
+      text-align: center;
+      height: 50px;
+      
+        background-color: red;
+        
+      font-weight: bold;
+  
+  }
+  h2{
+      background-color: aqua;
+  
+  }
+  hr{
+      color:yellowgreen;
+  }
+  h1.tieude1{
+    background-color: rgb(169, 255, 56);
+    color: gray;
+    font-weight: 900;
+ 
+}  h1.tieude2{
+
+    color: whitesmoke;
+}
+nav{
+    background-image: url("/IMAGES/nav-bg.jpg");
+    height: 20px;
+    clear:both;
+}
+li.topnav{
+    display: inline;
+   
+ 
+    
+}
+li.topnav a{
+    color:white;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li.topnav a:hover{
+    color:red;
+    font-weight: bold;
+    padding-left: 20px;
+}
+aside{
+    background-color: aquamarine;
+    float:left;
+    width: 20%;
+    border: 10px;
+    
+}
+main{
+ 
+     
+     
+     
+  
+}
+footer{
+   clear:both;
+   text-align: center;
+   padding: 10px 0 10px 0;
+   background-color: aqua;
+}
+header{
+    background-image: url("/IMAGES/header-bg.jpg");
+}
+#info{
+    background-color: blueviolet;
+    color:rgb(169, 255, 56);
+    padding: 5px 4px 10px 10px ;
+   
+ 
+}
+#info h2{
+    background-color: greenyellow;
+    color: yellow;
+}
+#info p{
+    background-color: palevioletred;
+    color: yellow;
+}
+.tieude{
+    color: green;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+div.khung  {
+    padding-top: 10px;
+    background-color: rgb(241, 241, 26);
+    text-align: center;
+    font-style: italic;
+    
+}
+.phude{
+    color:blue;
+    font-weight: 800;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.doan1{
+    color: blue;
+}
+.doan2{
+    padding-top: 10px;
+    color:red;
+}
+.Tieudelienhe 
+{
+    text-align: center;
+    font-size: 20px;
+}
+.lienhe_wrap{
+    padding: 10px;
+}
+#gui{
+    color: red;
+    font-size: 30px;
+    border: 5px;
+    border-style: double;
+    cursor: pointer;
+}
+.sp{
+    width: 200px;
+    background-color: purple;
+    color: white; float: left; margin-left: 2px;
+}
+.sp img{
+    width: 100px; height: 100px; 
+    padding-left: 50px ; padding-top: 25px;
+}
+.sp p{
+    text-align: center;
+}
+.spname{
+    font-size: 20px;
+    color:yellow
+}
+.spgia{
+    font-weight: bold;
+    color:rgb(169, 255, 56)
+}
+.sp a{
+    display: block;
+    text-align: center;
+    
+    color:black;
+    text-decoration: none;
+    border: red;
+    background-color: aliceblue;
+    width:150px; height: 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.sp a:hover{background-color: yellow; color: red;}
+.maudo{
+    color:red;
+}
+.vonglap{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: gray;
+    margin-top: 10px;
+    color: blue;
+}
+.vonglap .p1 {
+    padding-top:s15px;
+    padding-left:100px;    
+}
+.vonglap .p2{
+    text-align: center;
+}
